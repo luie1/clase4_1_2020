@@ -22,4 +22,10 @@
         android:name="com.example.calculadora.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.calculadora.ui.maps.MapsFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_maps" />
 </navigation>
